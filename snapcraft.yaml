@@ -44,23 +44,23 @@ parts:
       
     override-stage: |
       snapcraftctl stage
-      pip3 install wheel
-      pip3 install aiohttp
-      pip3 install aiohttp_apispec
-      pip3 install chardet 
-      pip3 install configobj
-      pip3 install decorator
-      pip3 install libnacl
-      pip3 install matplotlib
-      pip3 install netifaces
-      pip3 install networkx
-      pip3 install pony
-      pip3 install psutil
-      pip3 install pyasn1
-      pip3 install requests
-      pip3 install lz4
-      pip3 install pyqtgraph
-      pip3 install pyyaml
+      python3.8 -m pip install wheel
+      python3.8 -m pip install aiohttp
+      python3.8 -m pip aiohttp_apispec
+      python3.8 -m pip chardet 
+      python3.8 -m pip configobj
+      python3.8 -m pip decorator
+      python3.8 -m pip libnacl
+      python3.8 -m pip matplotlib
+      python3.8 -m pip netifaces
+      python3.8 -m pip networkx
+      python3.8 -m pip pony
+      python3.8 -m pip psutil
+      python3.8 -m pip pyasn1
+      python3.8 -m pip requests
+      python3.8 -m pip lz4
+      python3.8 -m pip pyqtgraph
+      python3.8 -m pip pyyaml
       #wget https://github.com/Tribler/tribler/releases/download/v7.7.1/tribler_7.7.1_all.deb
       #apt install ./stage/tribler_7.7.1_all.deb
       # Point icon to the correct location
