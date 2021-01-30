@@ -26,7 +26,7 @@ parts:
       - python3-pyqt5
       - python3-pyqt5.qtsvg
       - python3-scipy
-      - python3-dev
+      - python3.8-dev
       - openssl
       - libssl1.1
       - python3-setuptools
@@ -46,21 +46,21 @@ parts:
       snapcraftctl stage
       python3.8 -m pip install wheel
       python3.8 -m pip install aiohttp
-      python3.8 -m pip aiohttp_apispec
-      python3.8 -m pip chardet 
-      python3.8 -m pip configobj
-      python3.8 -m pip decorator
-      python3.8 -m pip libnacl
-      python3.8 -m pip matplotlib
-      python3.8 -m pip netifaces
-      python3.8 -m pip networkx
-      python3.8 -m pip pony
-      python3.8 -m pip psutil
-      python3.8 -m pip pyasn1
-      python3.8 -m pip requests
-      python3.8 -m pip lz4
-      python3.8 -m pip pyqtgraph
-      python3.8 -m pip pyyaml
+      python3.8 -m pip install aiohttp_apispec
+      python3.8 -m pip install chardet 
+      python3.8 -m pip install configobj
+      python3.8 -m pip install decorator
+      python3.8 -m pip install libnacl
+      python3.8 -m pip install matplotlib
+      python3.8 -m pip install netifaces
+      python3.8 -m pip install networkx
+      python3.8 -m pip install pony
+      python3.8 -m pip install psutil
+      python3.8 -m pip install pyasn1
+      python3.8 -m pip install requests
+      python3.8 -m pip install lz4
+      python3.8 -m pip install pyqtgraph
+      python3.8 -m pip install pyyaml
       #wget https://github.com/Tribler/tribler/releases/download/v7.7.1/tribler_7.7.1_all.deb
       #apt install ./stage/tribler_7.7.1_all.deb
       # Point icon to the correct location
