@@ -41,6 +41,7 @@ parts:
       - libgl1-mesa-dri
       - mesa-va-drivers
       - libglu1-mesa
+      - cython3
       
     override-stage: |
       snapcraftctl stage
