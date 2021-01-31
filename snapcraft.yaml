@@ -45,6 +45,7 @@ parts:
       
     override-stage: |
       snapcraftctl stage
+      python3.8 -m pip install cython
       python3.8 -m pip install wheel
       python3.8 -m pip install aiohttp
       python3.8 -m pip install aiohttp_apispec
@@ -62,7 +63,6 @@ parts:
       python3.8 -m pip install lz4
       python3.8 -m pip install pyqtgraph
       python3.8 -m pip install pyyaml
-      python3.8 -m pip install cython
       
       #wget https://github.com/Tribler/tribler/releases/download/v7.7.1/tribler_7.7.1_all.deb
       #apt install ./stage/tribler_7.7.1_all.deb
