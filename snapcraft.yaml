@@ -41,6 +41,8 @@ parts:
       - libgl1-mesa-dri
       - mesa-va-drivers
       - libglu1-mesa
+      - libjpeg-dev 
+      - zlib1g-dev
 #      - cython3
       
     override-stage: |
