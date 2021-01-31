@@ -41,7 +41,7 @@ parts:
       - libgl1-mesa-dri
       - mesa-va-drivers
       - libglu1-mesa
-      - cython3
+#      - cython3
       
     override-stage: |
       snapcraftctl stage
@@ -62,6 +62,8 @@ parts:
       python3.8 -m pip install lz4
       python3.8 -m pip install pyqtgraph
       python3.8 -m pip install pyyaml
+      python3.8 -m pip install cython
+      
       #wget https://github.com/Tribler/tribler/releases/download/v7.7.1/tribler_7.7.1_all.deb
       #apt install ./stage/tribler_7.7.1_all.deb
       # Point icon to the correct location
